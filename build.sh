@@ -3,5 +3,5 @@ mv ~/kernel/omap/arch/arm/boot/zImage ~/kernel/anykernel/kernel/
 cd ~/kernel/anykernel
 ZIP="GnexKernel-`date +%m%d`.zip"
 zip -r $ZIP .
-mv *.zip /~
+mv *.zip ~/
 rm ./kernel/zImage
